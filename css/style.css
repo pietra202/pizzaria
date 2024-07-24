@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+.fullcontainer {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.hgfundo {
+  background: url(https://placehold.co/1920x1000) no-repeat center/center;
+
+  /*
+    background-color: blue;
+    background-image: url:(https://placehold.co/20x1000);
+    background-repeat: no-repeat;
+    background-size: cower;
+    */
+
+  width: 100%;
+  height: 700px;
+}
+
+header {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.8) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.8) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  background: -moz-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.8) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
+
+  padding: 24px;
+}
+
+.container {
+  max-width: 1037px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.main-navigation {
+  display: flex;
+}
+
+.main-navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  align-items: flex-end;
+  margin: 0;
+}
+
+.main-navigation a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3125;
+  outline-offset: 1px;
+  padding: 6px 12px;
+  margin-bottom: 3px;
+  border-bottom: solid 3px transparent;
+}
+
+.main-navigation:hover,
+.main-navigation:focus {
+  border-color: #e7a200;
+}
+.site-header-main {
+  display: flex;
+  justify-content: space-between;
+  height: 125px;
+}
+
+.sec-menu {
+  display: flex;
+}
+
+.sec-menu ion-icon {
+    font-size: 25px;
+}
+
+#btnZap{
+    background: #e7a200;
+    border-radius: 65px;
+    padding: 1px 15px 0 15px;
+    font-size: 20px;
+    font-weight: bolder;
+
+
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+#btnZap icon-icon{
+    font-size: ;
+}
