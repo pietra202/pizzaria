@@ -12,23 +12,22 @@ body {
   overflow: hidden;
 }
 
-.hgfundo {
-  background: url(https://placehold.co/1920x1000) no-repeat center/center;
-
-  /*
-    background-color: blue;
-    background-image: url:(https://placehold.co/20x1000);
-    background-repeat: no-repeat;
-    background-size: cower;
+.bgfundo {
+  background: url(https://placehold.co/1920x1080) no-repeat center/cover;
+  /* 
+       background-color: blue;
+       background-image: url(https://placehold.co/1920x1080); 
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-size: cover;
     */
-
   width: 100%;
   height: 700px;
 }
 
 header {
-  color: white;
-  position: absolute;
+  color: #fff;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -46,32 +45,29 @@ header {
     rgba(0, 0, 0, 0.8) 60%,
     rgba(0, 0, 0, 0) 100%
   );
-
   background: -moz-linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.8) 0%,
     rgba(0, 0, 0, 0.8) 60%,
     rgba(0, 0, 0, 0) 100%
   );
-
-  padding: 24px;
+  padding: 24px 0;
 }
 
 .container {
-  max-width: 1037px;
+  max-width: 1073px;
   margin: 0 auto;
-  align-items: center;
 }
-
 .main-navigation {
   display: flex;
+  align-items: center;
 }
 
 .main-navigation ul {
   list-style: none;
   display: flex;
   gap: 28px;
-  align-items: flex-end;
+  align-items: center;
   margin: 0;
 }
 
@@ -80,18 +76,15 @@ header {
   display: block;
   text-decoration: none;
   font-size: 17px;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.3125;
-  outline-offset: 1px;
-  padding: 6px 12px;
-  margin-bottom: 3px;
+  font-weight: 700;
+  font-family: Helvetica, sans-serif;
   border-bottom: solid 3px transparent;
 }
-
-.main-navigation:hover,
-.main-navigation:focus {
-  border-color: #e7a200;
+.main-navigation a:hover,
+.main-navigation a:focus {
+  border-color: #c40954;
 }
+
 .site-header-main {
   display: flex;
   justify-content: space-between;
@@ -100,25 +93,113 @@ header {
 
 .sec-menu {
   display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .sec-menu ion-icon {
-    font-size: 25px;
+  font-size: 25px;
 }
 
-#btnZap{
-    background: #e7a200;
-    border-radius: 65px;
-    padding: 1px 15px 0 15px;
-    font-size: 20px;
-    font-weight: bolder;
+#btnZap {
+  background: #c40954;
+  border-radius: 65px;
+  padding: 0px 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  height: 40px;
 
-
-    display: flex;
-    align-items: center;
-    gap: 7px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.Zap {
+  text-decoration: none;
+  color: #fff;
 }
 
-#btnZap icon-icon{
-    font-size: ;
+.ifood {
+  position: fixed;
+  right: 0;
+  top: 200px;
+
+  box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#Boas-vindas {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  background: rgb(209, 101, 137);
+}
+
+#Boas-vindas img {
+  padding: 0 100px;
+}
+
+#TextoBoas-vindas {
+  max-width: 600px;
+  padding-right: 100px;
+}
+
+#TextoBoas-vindas h4 {
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 0;
+  padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#TextoBoas-vindas h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #c40954;
+  font-size: 23px;
+  margin-bottom: 0;
+}
+
+#TextoBoas-vindas p{
+margin-bottom: 0;
+}
+
+.cardapio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.cardapio div{
+  width: 100%;
+  display:  flex;
+  justify-content: space-between;
+}
+
+#cardapio div img{
+  padding: 0;
+}
+
+#cardapio h2{
+  color: #d03012;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 7px 0;
+}
+
+.btncardapio {
+  text-decoration: none;
+}
+
+#promopizzas {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
 }
