@@ -224,3 +224,14 @@ header {
   justify-content: center;
   padding: 40px;
 }
+
+#icone {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.icone {
+  max-width: 250px;
+  text-align: center;
+}
