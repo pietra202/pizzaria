@@ -161,28 +161,27 @@ header {
   margin-bottom: 0;
 }
 
-#TextoBoas-vindas p{
-margin-bottom: 0;
+#TextoBoas-vindas p {
+  margin-bottom: 0;
 }
 
-.cardapio{
+.cardapio {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-.cardapio div{
+.cardapio div {
   width: 100%;
-  display:  flex;
+  display: flex;
   justify-content: space-between;
 }
 
-#cardapio div img{
+#cardapio div img {
   padding: 0;
 }
 
-#cardapio h2{
+#cardapio h2 {
   color: #d03012;
   text-transform: uppercase;
   font-size: 28px;
@@ -202,4 +201,26 @@ margin-bottom: 0;
   justify-content: center;
   gap: 10px;
   padding-top: 20px;
+}
+
+#delivery {
+  min-width: 270px;
+  background: #ebe7db;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
+}
+
+#delivery h1 {
+  text-transform: uppercase;
+  color: #d03012;
+  font-weight: 900;
+}
+
+#delivery .sec-menu {
+  justify-content: center;
+  padding: 40px;
 }
