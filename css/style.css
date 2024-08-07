@@ -13,7 +13,7 @@ body {
 }
 
 .bgfundo {
-  background: url(https://placehold.co/1920x1080) no-repeat center/cover;
+  background: url(../img/pizza01.webp) no-repeat center/cover;
   /* 
        background-color: blue;
        background-image: url(https://placehold.co/1920x1080); 
@@ -102,7 +102,7 @@ header {
 }
 
 #btnZap {
-  background: #026700;
+  background: #026100;
   border-radius: 65px;
   padding: 0px 15px;
   font-size: 20px;
@@ -122,10 +122,8 @@ header {
   position: fixed;
   right: 0;
   top: 200px;
-
-  box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -7px 10px 5px 0px rgba(0, 0, 0, 0.75);
+z-index: 10;
+  filter: drop-shadow(-2px 4px 6px black);
 }
 
 #Boas-vindas {
@@ -133,7 +131,7 @@ header {
   justify-content: center;
   margin: 0 auto;
   padding-bottom: 15px;
-  background: #50c170;
+  background: #c2c2c2f6;
 }
 
 #Boas-vindas img {
@@ -156,7 +154,7 @@ header {
 #TextoBoas-vindas h3 {
   text-transform: uppercase;
   font-weight: 900;
-  color: #026700;
+  color: #026100;
   font-size: 23px;
   margin-bottom: 0;
 }
